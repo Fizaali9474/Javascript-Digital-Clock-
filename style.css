@@ -1,0 +1,68 @@
+
+
+body{
+  margin: 0%;
+  padding: 0%;
+  background: linear-gradient(to right, #08a8a0, rgb(185, 70, 200));
+  overflow: hidden;
+}
+
+
+
+#heading{
+  text-align: center;
+color: black;
+
+font-size: 190px;
+font-style: italic;
+border-radius: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+#container{
+    min-height: 800px;
+    position: relative;
+  }
+  #clock{
+    
+    font-size:150px;
+    color: #fff;
+    min-width: 400px;
+    padding: 10px;
+    border-radius: 19px;
+    margin:  auto;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+  right: 45%;
+  
+    transform: translate(-50%, -50%);
+  }
+
+
+ .button{
+    border: none;
+    padding: 18px 10px;
+    font-size: 8em;
+    width: 580px;
+    height: 200px;
+    margin: 14px;
+    border-radius: 100px;
+    color: rgb(132, 7, 170);
+    font-weight: bold;
+    bottom: 1200%;
+    left: 30%;
+    
+    }
+    
+    .button:hover{
+      cursor: pointer;
+      background-color: transparent;
+      color: rgb(255, 0, 140);
+      transition: 0.8s;
+      border: 2em;
+  }
+  
+
